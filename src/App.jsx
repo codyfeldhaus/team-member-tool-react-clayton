@@ -1,17 +1,17 @@
-import React from 'react';
+import * as React from 'react';
 
 import './App.css';
-import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
+import Header from './Header.jsx';
+import Content from './Content.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Content />
-      <Footer />
-    </div>
+    <>
+      <Header/>
+      <Content/>
+      <Footer/>
+    </>
   );
 }
 
