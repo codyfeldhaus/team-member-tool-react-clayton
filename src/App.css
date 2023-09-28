@@ -3,6 +3,7 @@ body {
   color: black;
 }
 
-h1 {
-  color: black;
+.card-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
