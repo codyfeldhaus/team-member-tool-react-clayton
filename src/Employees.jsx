@@ -93,12 +93,12 @@ const Employees = () => {
 
     return (
       <main className="container">
-        <div class="row justify-content-center mt-3">
-          <div class="col-8">
-            <div class="card-collection">
+        <div className="row justify-content-center mt-3">
+          <div className="col-8">
+            <div className="card-collection">
               {
               employees.map((employee) => (
-                <div id={employee.id} className="card m-2" style={{cursor: "pointer"}}>
+                <div key={employee.id} id={employee.id} className="card m-2" style={{cursor: "pointer"}}>
 
                   <img src={femaleProfile} className="card-img-top" alt={"Profile of " + employee.fullName} />
                   
